@@ -27,34 +27,17 @@
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    form {
-      background-color: white;
-      padding: 20px;
-      max-width: 600px;
+    .form-container {
+      max-width: 700px;
       margin: 30px auto;
+      background: white;
+      padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    form label {
-      display: block;
-      margin-top: 15px;
-    }
-    form input, form textarea {
+    iframe {
       width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      resize: vertical;
-    }
-    form button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #2a9d8f;
-      color: white;
       border: none;
-      border-radius: 4px;
-      cursor: pointer;
     }
     footer {
       text-align: center;
@@ -68,32 +51,20 @@
 
   <header>
     <h1>2 Lotes Terreno Bairro dos Marinheiros</h1>
-    <p>Disponível para venda. Entre em contacto para mais informações.</p>
+    <p>Disponível para venda. Consulte as imagens abaixo e envie o seu pedido de informações.</p>
   </header>
 
   <section class="gallery">
-    <img src="https://drive.google.com/uc?export=view&id=1bhIBU_dq_e56hJFcVfHrS1MGQHhspnyJ" alt="Lote 1">
-    <img src="https://drive.google.com/uc?export=view&id=1aEZoygq0MQinYwZRUAW6AH9PNb6Vy1yi" alt="Lote 2">
-    <img src="https://drive.google.com/uc?export=view&id=1sm9Z6SAqV-8b4LYT9lIKtEveGGAiNHlZ" alt="Lote 3">
-    <img src="https://drive.google.com/uc?export=view&id=1iG2yX9j3zK8dPb1wDe8W5Tnluz_AGudS" alt="Lote 4">
+    <img src="https://drive.google.com/uc?export=view&id=1iG2yX9j3zK8dPb1wDe8W5Tnluz_AGudS" alt="Lote 1">
+    <img src="https://drive.google.com/uc?export=view&id=1sm9Z6SAqV-8b4LYT9lIKtEveGGAiNHlZ" alt="Lote 2">
+    <img src="https://drive.google.com/uc?export=view&id=1aEZoygq0MQinYwZRUAW6AH9PNb6Vy1yi" alt="Lote 3">
+    <img src="https://drive.google.com/uc?export=view&id=1bhIBU_dq_e56hJFcVfHrS1MGQHhspnyJ" alt="Lote 4">
   </section>
 
-  <form action="https://formspree.io/f/myzpdpew" method="POST">
-    <h2>Peça informações</h2>
-    <label>Nome:</label>
-    <input type="text" name="nome" />
-    
-    <label>Email:</label>
-    <input type="email" name="email" />
-
-    <label>Telefone:</label>
-    <input type="text" name="telefone" />
-
-    <label>Mensagem:</label>
-    <textarea name="mensagem" rows="5"></textarea>
-
-    <button type="submit">Enviar</button>
-  </form>
+  <div class="form-container">
+    <h2>Formulário de contacto</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0Wz5hMrnjzNOYL_7ZT6z4atYTSxbooTyZ0JLSd592iSdaEQ/viewform?embedded=true" height="800" frameborder="0" marginheight="0" marginwidth="0">A carregar…</iframe>
+  </div>
 
   <footer>
     © 2025 - Luis Francisco
